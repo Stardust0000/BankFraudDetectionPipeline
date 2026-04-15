@@ -1,6 +1,6 @@
-# 🚀 Real-Time Bank Transaction Fraud Detection Pipeline
+# Real-Time Bank Transaction Fraud Detection Pipeline
 
-## 🧠 Problem
+## Problem
 
 Traditional banking systems detect fraud in batch mode, causing delays in identifying suspicious transactions. This can lead to financial losses before fraud is flagged.
 
@@ -8,13 +8,13 @@ This project builds a **real-time fraud detection pipeline** that flags suspicio
 
 ---
 
-## ⚙️ Architecture
+## Architecture
 
 Django REST API → Kafka → Python Consumer → MongoDB
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Django REST Framework** — Transaction ingestion API
 * **Apache Kafka** — Real-time event streaming
@@ -24,7 +24,7 @@ Django REST API → Kafka → Python Consumer → MongoDB
 
 ---
 
-## 🔥 Features
+## Features
 
 * Real-time transaction ingestion via REST API
 * Kafka-based streaming pipeline
@@ -38,7 +38,7 @@ Django REST API → Kafka → Python Consumer → MongoDB
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 Fraud Alert - High Amount
 Fraud Alert - Velocity
@@ -64,7 +64,7 @@ python manage.py runserver
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add Kafka fraud-alerts topic for real-time notifications
 * Build dashboard for analytics
